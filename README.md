@@ -32,14 +32,14 @@ Current release info
 Installing azure-mgmt-signalr
 =============================
 
-Installing `azure-mgmt-signalr` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `azure-mgmt-signalr` from the `conda-forge/label/azure-mgmt-signalr_rc` channel can be achieved by adding `conda-forge/label/azure-mgmt-signalr_rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/azure-mgmt-signalr_rc
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `azure-mgmt-signalr` can be installed with `conda`:
+Once the `conda-forge/label/azure-mgmt-signalr_rc` channel has been enabled, `azure-mgmt-signalr` can be installed with `conda`:
 
 ```
 conda install azure-mgmt-signalr
@@ -54,26 +54,26 @@ mamba install azure-mgmt-signalr
 It is possible to list all of the versions of `azure-mgmt-signalr` available on your platform with `conda`:
 
 ```
-conda search azure-mgmt-signalr --channel conda-forge
+conda search azure-mgmt-signalr --channel conda-forge/label/azure-mgmt-signalr_rc
 ```
 
 or with `mamba`:
 
 ```
-mamba search azure-mgmt-signalr --channel conda-forge
+mamba search azure-mgmt-signalr --channel conda-forge/label/azure-mgmt-signalr_rc
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search azure-mgmt-signalr --channel conda-forge
+mamba repoquery search azure-mgmt-signalr --channel conda-forge/label/azure-mgmt-signalr_rc
 
 # List packages depending on `azure-mgmt-signalr`:
-mamba repoquery whoneeds azure-mgmt-signalr --channel conda-forge
+mamba repoquery whoneeds azure-mgmt-signalr --channel conda-forge/label/azure-mgmt-signalr_rc
 
 # List dependencies of `azure-mgmt-signalr`:
-mamba repoquery depends azure-mgmt-signalr --channel conda-forge
+mamba repoquery depends azure-mgmt-signalr --channel conda-forge/label/azure-mgmt-signalr_rc
 ```
 
 
